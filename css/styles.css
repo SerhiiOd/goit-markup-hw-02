@@ -3,13 +3,33 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-/* Logo-шрифт */
+/* Logo-шрифт/колір */
+
 .logo {
   font-family: "Raleway", sans-serif;
 }
 
+.web-font {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+}
+
+.studio-font {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+
 /* Шапка index portfolio */
-.site-font {
+
+.nav-font {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -18,7 +38,7 @@ body {
   color: #212121;
 }
 
-.site-font:hover {
+.nav-font:hover {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -26,8 +46,44 @@ body {
   letter-spacing: 0.02em;
   color: #2196f3;
 }
+
 /* Контакти index portfolio */
 
+.mail-info {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+
+.mail-info:hover {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #2196f3;
+}
+
+.tel-info {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+
+.tel-info:hover {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #2196f3;
+}
+/* Main */
 /* Банер */
 
 /* Деталі */
@@ -37,3 +93,57 @@ body {
 /* Команда */
 
 /* Підвал index portfolio */
+
+.drop-info {
+  width: 1600px;
+  height: 252px;
+  left: 0px;
+  top: 2094px;
+  background: #2f303a;
+}
+
+.foot-web-font {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+}
+
+.foot-studio-font {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.street {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.foot-mail {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.foot-tel {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+
