@@ -6,7 +6,8 @@
   --text-color-logo-foot: #ffffff;
   --color-text-logo: #2196f3;
   --color-text-title-button: #ffffff;
-  --color-text-h2h3: #212121;
+  --color-text-h2: #212121;
+  --color-text-h3: #212121;
   --color-text-p: #757575;
   --color-text-link: #212121;
   --color-text-contact: #757575;
@@ -55,9 +56,6 @@ ul { list-style: none; }
 
 /* Main */
 
-
-
-
 /* Банер index */
 
 .baner-style {
@@ -73,15 +71,6 @@ ul { list-style: none; }
   color: var(--color-text-title-button);
   cursor: pointer;
 }
-
-
-/* Деталі index */
-
-/* Заняття index */
-
-/* Команда index */
-
-/* Портфоліо */
 
 /* Макет portfolio*/
 
