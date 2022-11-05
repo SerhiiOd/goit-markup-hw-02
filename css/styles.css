@@ -1,245 +1,100 @@
+:root {
+  --background-color-sect: #2f303a;
+  --background-color-sect-button: #f5f4fa;
+  --background-color-button: #2196f3;
+  --text-color-logo: #000000;
+  --text-color-logo-foot: #ffffff;
+  --color-text-logo: #2196f3;
+  --color-text-title-button: #ffffff;
+  --color-text-h2h3: #212121;
+  --color-text-p: #757575;
+  --color-text-link: #212121;
+  --color-text-contact: #757575;
+  --hover-focus-link-button: #2196f3;
+}
 
 body {
   font-family: 'Roboto', sans-serif;
   background: #ffffff;
 }
 
+ul { list-style: none; }
+
 /* Logo-шрифт/колір */
 
 .logo {
   font-family: 'Raleway', sans-serif;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-  color: #2196f3;
+  color: var(--color-text-logo);
 }
 
 .logo-styles {
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-  color: #000000;
+  color: var(--text-color-logo);
 }
 
 /* Шапка index portfolio */
 
 .nav-link .font {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--color-text-link);
 }
 
 .nav-link .font:hover,
 .nav-link .font:focus {
-  color: #2196f3;
+  color: var(--hover-focus-link-button);
 }
 
 /* Контакти index portfolio */
 
 .contact .info {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  color: #757575;
+  color: var(--color-text-contact);
 }
 
 .contact .info:hover,
 .contact .info:focus {
-  color: #2196f3;
+  color: var(--hover-focus-link-button);
 }
 
 /* Main */
 
+
+
+
 /* Банер index */
 
 .baner-style {
-  background: #2f303a;
+  background: var(--background-color-sect);
 }
 
-.baner-title {
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
-  text-align: center;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: #ffffff;
+.baner-text {
+  color: var(--color-text-title-button);
 }
 
 .baner-button {
+  background-color: var(--background-color-button);
+  color: var(--color-text-title-button);
   cursor: pointer;
 }
+
 
 /* Деталі index */
 
-
-
 /* Заняття index */
-
-
 
 /* Команда index */
 
-.team-section {
-  background: #F5F4FA;
-}
-
 /* Портфоліо */
 
-.btn-portfplio-vse {
-  cursor: pointer;
-  color: #212121;
-  font-family: 'Roboto', sans-serif;
-}
-
-.btn-portfplio-vse:hover {
-  color: #ffffff;
-  background: #2196f3;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
-  border-radius: 4px;
-}
-
-.btn-portfplio-vse:focus {
-  color: #ffffff;
-  background: #2196f3;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
-  border-radius: 4px;
-}
-
-.btn-portfplio-web {
-  cursor: pointer;
-  color: #212121;
-  font-family: 'Roboto', sans-serif;
-}
-
-.btn-portfplio-web:hover {
-  color: #ffffff;
-  background: #2196f3;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
-  border-radius: 4px;
-}
-
-.btn-portfplio-web:focus {
-  color: #ffffff;
-  background: #2196f3;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
-  border-radius: 4px;
-}
-
-.btn-portfplio-dodatok {
-  cursor: pointer;
-  color: #212121;
-  font-family: 'Roboto', sans-serif;
-}
-
-.btn-portfplio-dodatok:hover {
-  color: #ffffff;
-  background: #2196f3;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
-  border-radius: 4px;
-}
-
-.btn-portfplio-dodatok:focus {
-  color: #ffffff;
-  background: #2196f3;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
-  border-radius: 4px;
-}
-
-.btn-portfplio-design {
-  cursor: pointer;
-  color: #212121;
-  font-family: 'Roboto', sans-serif;
-}
-
-.btn-portfplio-design:hover {
-  color: #ffffff;
-  background: #2196f3;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
-  border-radius: 4px;
-}
-
-.btn-portfplio-design:focus {
-  color: #ffffff;
-  background: #2196f3;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
-  border-radius: 4px;
-}
-
-.btn-portfplio-market {
-  cursor: pointer;
-  color: #212121;
-  font-family: 'Roboto', sans-serif;
-}
-
-.btn-portfplio-market:hover {
-  color: #ffffff;
-  background: #2196f3;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
-  border-radius: 4px;
-}
-
-.btn-portfplio-market:focus {
-  color: #ffffff;
-  background: #2196f3;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
-  border-radius: 4px;
-}
-
-.text-btn {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.62;
-  text-align: center;
-  letter-spacing: 0.03em;
-}
-
 /* Макет portfolio*/
-
-.zagolovok {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 2;
-  letter-spacing: 0.06em;
-  color: #212121;
-}
-
-.opisanie {
-  font-size: 16px;
-  line-height: 1.87;
-  letter-spacing: 0.03em;
-  color: #757575;
-}
 
 /* Підвал index portfolio */
 
 .drop-info {
-  background: #2f303a;
+  background: var(--background-color-sect);
 }
 
 .foot-logo {
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--text-color-logo-foot);
 }
 
 .street {
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--text-color-logo-foot);
 }
