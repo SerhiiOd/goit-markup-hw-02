@@ -2,6 +2,7 @@
   --background-color-sect: #2f303a;
   --background-color-sect-button: #f5f4fa;
   --background-color-button: #2196f3;
+  --background-color-focus-button: #188CE8;
   --text-color-logo: #000000;
   --text-color-logo-foot: #ffffff;
   --color-text-logo: #2196f3;
@@ -21,6 +22,10 @@ body {
 
 ul {
   list-style: none;
+}
+
+a {
+  text-decoration: none;
 }
 
 /* Logo-шрифт/колір */
@@ -97,6 +102,11 @@ ul {
   font-size: 16px;
   line-height: calc(30 / 16);
   letter-spacing: 0.06em;
+}
+
+.baner-button:hover,
+.baner-button:focus {
+  background-color: var(--background-color-focus-button);
 }
 
 /* Деталі */
