@@ -7,7 +7,6 @@
   --color-text-logo: #2196f3;
   --color-text-title-button: #ffffff;
   --color-text-h2: #212121;
-  --color-text-h3: #212121;
   --color-text-p: #757575;
   --color-text-link: #212121;
   --color-text-contact: #757575;
@@ -17,6 +16,7 @@
 body {
   font-family: 'Roboto', sans-serif;
   background: #ffffff;
+  color: var(--color-text-h2);
 }
 
 ul {
@@ -28,6 +28,8 @@ ul {
 .logo {
   font-family: 'Raleway', sans-serif;
   color: var(--color-text-logo);
+  font-weight: 700;
+  font-size: 26px;
   line-height: calc(31 / 26);
   letter-spacing: 0.03em;
 }
@@ -42,6 +44,8 @@ ul {
 
 .nav-link .font {
   color: var(--color-text-link);
+  font-weight: 500;
+  font-size: 14px;
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
 }
@@ -55,6 +59,8 @@ ul {
 
 .contact .info {
   color: var(--color-text-contact);
+  font-weight: 500;
+  font-size: 14px;
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
 }
@@ -75,6 +81,8 @@ ul {
 .baner-text {
   color: var(--color-text-title-button);
   text-align: center;
+  font-weight: 900;
+  font-size: 44px;
   line-height: calc(60 / 44);
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -85,19 +93,25 @@ ul {
   background-color: var(--background-color-button);
   color: var(--color-text-title-button);
   cursor: pointer;
+  font-weight: 700;
+  font-size: 16px;
   line-height: calc(30 / 16);
+  letter-spacing: 0.06em;
 }
 
 /* Деталі */
 
 .factor {
-  color: var(--color-text-h3);
+  font-weight: 700;
+  font-size: 14px;
   line-height: calc(16 / 14);
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
 .opisanie {
+  font-weight: 400;
+  font-size: 14px;
   color: var(--color-text-p);
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
@@ -110,13 +124,17 @@ ul {
 }
 
 .glava {
-  color: var(--color-text-h2);
   text-align: center;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: calc(42 / 36);
+  letter-spacing: 0.03em;
 }
 
 .name-people {
-  color: var(--color-text-h3);
   text-align: center;
+  font-weight: 500;
+  font-size: 16px;
   line-height: calc(19 / 16);
   letter-spacing: 0.03em;
 }
@@ -124,7 +142,47 @@ ul {
 .job-title {
   color: var(--color-text-p);
   text-align: center;
+  font-weight: 400;
+  font-size: 16px;
   line-height: calc(19 / 16);
+  letter-spacing: 0.03em;
+}
+
+/* Портфоліо */
+
+.list-button .click-button {
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--background-color-sect-button);
+  cursor: pointer;
+  color: var(--color-text-link);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(26 / 16);
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.list-button .click-button:hover,
+.list-button .click-button:focus {
+  background-color: var(--hover-focus-link-button);
+  color: var(--color-text-title-button);
+  line-height: calc(26 / 16);
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.project-company {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: calc(36 / 18);
+  letter-spacing: 0.06em;
+}
+
+.marker-company {
+  color: var(--color-text-p);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: calc(30 / 16);
   letter-spacing: 0.03em;
 }
 
@@ -142,12 +200,16 @@ ul {
 
 .street {
   color: var(--text-color-logo-foot);
+  font-weight: 400;
+  font-size: 14px;
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
 }
 
 .foot-contact .foot-info {
   color: var(--color-text-contact);
+  font-weight: 400;
+  font-size: 14px;
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
 }
