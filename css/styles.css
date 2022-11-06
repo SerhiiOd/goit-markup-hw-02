@@ -58,8 +58,6 @@ a {
 .nav-link .font:hover,
 .nav-link .font:focus {
   color: var(--hover-focus-link-button);
-  line-height: calc(16 / 14);
-  letter-spacing: 0.02em;
 }
 
 .contact .info {
@@ -73,8 +71,6 @@ a {
 .contact .info:hover,
 .contact .info:focus {
   color: var(--hover-focus-link-button);
-  line-height: calc(16 / 14);
-  letter-spacing: 0.02em;
 }
 
 /* Банер index */
@@ -120,7 +116,6 @@ a {
 }
 
 .opisanie {
-  font-weight: 400;
   font-size: 14px;
   color: var(--color-text-p);
   line-height: calc(24 / 14);
@@ -141,6 +136,10 @@ a {
   letter-spacing: 0.03em;
 }
 
+.bg-card {
+  background-color: var(--color-text-title-button);
+}
+
 .name-people {
   text-align: center;
   font-weight: 500;
@@ -152,7 +151,6 @@ a {
 .job-title {
   color: var(--color-text-p);
   text-align: center;
-  font-weight: 400;
   font-size: 16px;
   line-height: calc(19 / 16);
   letter-spacing: 0.03em;
@@ -176,9 +174,6 @@ a {
 .list-button .click-button:focus {
   background-color: var(--hover-focus-link-button);
   color: var(--color-text-title-button);
-  line-height: calc(26 / 16);
-  text-align: center;
-  letter-spacing: 0.03em;
 }
 
 .project-company {
@@ -190,7 +185,6 @@ a {
 
 .marker-company {
   color: var(--color-text-p);
-  font-weight: 400;
   font-size: 16px;
   line-height: calc(30 / 16);
   letter-spacing: 0.03em;
@@ -210,7 +204,6 @@ a {
 
 .street {
   color: var(--text-color-logo-foot);
-  font-weight: 400;
   font-size: 14px;
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
@@ -218,7 +211,6 @@ a {
 
 .foot-contact .foot-info {
   color: var(--color-text-contact);
-  font-weight: 400;
   font-size: 14px;
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
@@ -227,6 +219,4 @@ a {
 .foot-contact .foot-info:hover,
 .foot-contact .foot-info:focus {
   color: var(--hover-focus-link-button);
-  line-height: calc(24 / 14);
-  letter-spacing: 0.03em;
 }
