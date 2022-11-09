@@ -159,7 +159,7 @@ a {
 /* Портфоліо */
 
 .list-button .click-button {
-  font-family: 'Roboto', sans-serif;
+  font-family: inherit;
   background-color: var(--background-color-sect-button);
   cursor: pointer;
   color: var(--color-text-link);
@@ -204,7 +204,7 @@ a {
 }
 
 .foot-adress {
-  font-style: inherit;
+  font-style: normal;
 }
 
 .street {
